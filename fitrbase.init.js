@@ -7,16 +7,18 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDeAJ7FZ9mZ1ch_x3kjFYwcUUmh3sDoRd0",
-  authDomain: "ecomerce-desivibes.firebaseapp.com",
-  projectId: "ecomerce-desivibes",
-  storageBucket: "ecomerce-desivibes.appspot.com",
-  messagingSenderId: "554033829945",
-  appId: "1:554033829945:web:13bd2cf038822226e4d5e8",
-  measurementId: "G-JP5X7Q0SW8"
+  apiKey: process.env.REACT_APP_apiKey,
+  authDomain: process.env.REACT_APP_authDomain,
+  projectId: process.env.REACT_APP_projectId,
+  storageBucket: process.env.REACT_APP_storageBucket,
+  messagingSenderId: process.env.REACT_APP_messagingSenderId,
+  appId: process.env.REACT_APP_appId,
+  measurementId: process.env.REACT_APP_measurementId,
 };
 //For hosting: npm install -g firebase-tools
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
+
+export default app;
