@@ -3,7 +3,7 @@ import React from 'react';
 const HeaderPart2 = () => {
     return (
         <div>
-            <div className="hero min-h-screen bg-base-300 p-0 lg:p-24">
+            <div className="hero min-h-screen bg-red-950 p-0 lg:p-24">
                 <div className="hero-content flex-col lg:flex-row">
                     <img src="https://image.spreadshirtmedia.net/image-server/v1/products/T812A2PA5886PT17X8Y81D307542223W33097H14238/views/1,width=500,height=500,appearanceId=2,backgroundColor=ffffff,crop=list,modelId=85/damisoftorg-black-home-page-header-design-mens-premium-t-shirt.jpg" className="max-w-sm rounded-lg shadow-2xl" />
                     <div className='p-5'>

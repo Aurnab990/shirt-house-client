@@ -7,10 +7,11 @@ import Navbar from './Navbar/Navbar';
 
 const Home = () => {
     return (
-        <div className='p-5 rounded-xl'>
+        <div className=' rounded-xl'>
             <Navbar></Navbar>
             <BAnner></BAnner>
             <HeaderPart2></HeaderPart2>
+            <h1 className='text-3xl text-center font-semibold mt-5 lg:mt-10'><span>Some</span> Our <span className='text-red-400 '>Best Products</span></h1>
             <Mapproduct></Mapproduct>
         </div>
     );
