@@ -1,51 +1,50 @@
 [
     {
-        "id":1,
+        "id": 1,
         "name": "Telegu T-shirts",
-        "img":"https://cf.shopee.com.my/file/48acf9335295d477b2d0f496152659a0",
-        "price": 20,
-        "description":"Explore the massive collection of Tshirt online for men, women & kids in India. Check out Tshirts from top brands available in various sizes, fabrics",
+        "img": "https://cf.shopee.com.my/file/48acf9335295d477b2d0f496152659a0",
+        "price": 60,
+        "description": "A T-shirt is a type of casual garment that is perfect for everyday wear. Made of comfortable cotton fabric, it is lightweight and versatile, making it a popular choice for people of all ages and genders. T-shirts come in a range of colors and designs, from classic solid colors to graphic prints and patterns. They are easy to care for and can be worn on their own or layered with other clothing items. Whether you're running errands, lounging at home, or out with friends, a T-shirt is a go-to option that never goes out of style.",
+        "stocks": 0
+    },
+    {
+        "id": 2,
+        "name": "Telegu T-shirts",
+        "img": "https://cf.shopee.com.my/file/dd641d3f4abf4c82ce71c8868599e734",
+        "price": 80,
+        "description": "T-shirts are a must-have wardrobe staple for any casual occasion. They are a versatile garment that can be dressed up or down depending on the occasion. Made of soft and comfortable cotton fabric, T-shirts come in a variety of styles, colors, and designs. They are easy to care for and can be paired with jeans, shorts, or skirts for a stylish yet casual look. From plain tees to graphic prints, T-shirts are a great way to express your personal style and make a statement.",
+        "stocks": 40
+    },
+    {
+        "id": 3,
+        "name": "Telegu T-shirts",
+        "img": "https://cf.shopee.com.my/file/48acf9335295d477b2d0f496152659a0",
+        "price": 30,
+        "description": "A T-shirt is a classic and timeless piece of clothing that is perfect for any casual occasion. They are comfortable, easy to wear, and can be paired with just about anything. T-shirts come in a variety of styles, from classic crew necks to V-necks and scoop necks. They can be plain or adorned with graphics, slogans, or logos. T-shirts are a great way to express your personality and make a statement. Whether you're running errands, hanging out with friends, or just lounging at home, a T-shirt is a go-to choice that is both comfortable and stylish.",
         "stocks": 10
     },
     {
-        "id":2,
+        "id": 4,
         "name": "Telegu T-shirts",
-        "img":"https://cf.shopee.com.my/file/dd641d3f4abf4c82ce71c8868599e734",
-        "price": 20,
-        "description":"Explore the massive collection of Tshirt online for men, women & kids in India. Check out Tshirts from top brands available in various sizes, fabrics",
-        "stocks": 10
+        "img": "https://cf.shopee.com.my/file/dd641d3f4abf4c82ce71c8868599e734",
+        "price": 70,
+        "description": "T-shirts are a wardrobe essential for anyone who values comfort and style. Made of soft and breathable cotton fabric, T-shirts are perfect for everyday wear. They come in a range of styles, from classic plain tees to graphic prints and designs. T-shirts can be worn on their own or layered under jackets or sweaters for a more sophisticated look. They are easy to care for and are a great addition to any wardrobe. T-shirts are perfect for running errands, going to the gym, or just relaxing at home.",
+        "stocks": 30
     },
     {
-        "id":3,
+        "id": 5,
         "name": "Telegu T-shirts",
-        "img":"https://cf.shopee.com.my/file/48acf9335295d477b2d0f496152659a0",
+        "img": "https://cf.shopee.com.my/file/48acf9335295d477b2d0f496152659a0",
         "price": 20,
-        "description":"Explore the massive collection of Tshirt online for men, women & kids in India. Check out Tshirts from top brands available in various sizes, fabrics",
-        "stocks": 10
+        "description": "A T-shirt is a versatile and stylish piece of clothing that is perfect for any casual occasion. Made of soft and comfortable cotton fabric, T-shirts come in a range of styles and designs, from classic plain tees to bold graphic prints. They can be dressed up or down depending on the occasion and can be paired with jeans, shorts, or skirts for a stylish look. T-shirts are easy to care for and are a great addition to any wardrobe. They are perfect for a day out with friends, a weekend getaway, or just lounging at home.",
+        "stocks": 0
     },
     {
-        "id":4,
+        "id": 6,
         "name": "Telegu T-shirts",
-        "img":"https://cf.shopee.com.my/file/dd641d3f4abf4c82ce71c8868599e734",
-        "price": 20,
-        "description":"Explore the massive collection of Tshirt online for men, women & kids in India. Check out Tshirts from top brands available in various sizes, fabrics",
-        "stocks": 10
-    },
-    {
-        "id":5,
-        "name": "Telegu T-shirts",
-        "img":"https://cf.shopee.com.my/file/48acf9335295d477b2d0f496152659a0",
-        "price": 20,
-        "description":"Explore the massive collection of Tshirt online for men, women & kids in India. Check out Tshirts from top brands available in various sizes, fabrics",
-        "stocks": 10
-    },
-    {
-        "id":6,
-        "name": "Telegu T-shirts",
-        "img":"https://cf.shopee.com.my/file/48acf9335295d477b2d0f496152659a0",
-        "price": 20,
-        "description":"Explore the massive collection of Tshirt online for men, women & kids in India. Check out Tshirts from top brands available in various sizes, fabrics",
-        "stocks": 10
+        "img": "https://cf.shopee.com.my/file/48acf9335295d477b2d0f496152659a0",
+        "price": 15,
+        "description": "T-shirts are a timeless and classic garment that has been a fashion staple for decades. Made of comfortable and breathable cotton fabric, T-shirts come in a variety of styles, colors, and designs. They are versatile and can be worn for a variety of occasions, from casual outings to formal events. T-shirts can be dressed up or down, depending on your style and mood. They are easy to care for and are a great addition to any wardrobe. From plain tees to bold graphic prints, T-shirts are a must-have garment that can be worn year-round.",
+        "stocks": 90
     }
-
 ]

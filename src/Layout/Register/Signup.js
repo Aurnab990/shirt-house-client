@@ -25,8 +25,12 @@ const Signup = () => {
     
     return (
         <div>
-            <div className="hero min-h-screen bg-base-200 p-32">
-                <div className="hero-content flex-col lg:flex-row-reverse">
+            <div className="hero min-h-screen bg-base-200 p-19">
+                <div className="hero-content flex-col ">
+                <div className="text-center lg:text-left">
+                        <h1 className="text-5xl font-bold mb-5">Create an Account Easily</h1>
+                        {/* <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p> */}
+                    </div>
                     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                         <form onSubmit={handleSignUp} className="card-body">
                             <div className="form-control">
@@ -39,7 +43,7 @@ const Signup = () => {
                                 <label className="label">
                                     <span className="label-text">Password</span>
                                 </label>
-                                <input type="text" name='password' placeholder="password" className="input input-bordered" />
+                                <input type="password" name='password' placeholder="password" className="input input-bordered" />
                                 <label className="label">
                                     <Link to={"/login"}><a href="#" className="label-text-alt link link-hover">Already have an account?</a></Link>
                                 </label>
@@ -52,10 +56,7 @@ const Signup = () => {
                             </div>
                         </form>
                     </div>
-                    <div className="text-center lg:text-left">
-                        <h1 className="text-5xl font-bold">Create an Account Easily</h1>
-                        <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                    </div>
+                    
 
                 </div>
             </div>
