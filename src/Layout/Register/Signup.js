@@ -49,7 +49,7 @@ const Signup = () => {
                                 </label>
                             </div>
                             <div className="form-control mt-6">
-                                <button className="btn btn-primary">Sing up</button>
+                                <button className="btn btn-primary">Sign up</button>
                             </div>
                             <div className="form-control mt-6">
                                 <button className="btn btn-primary">GOOGLE</button>

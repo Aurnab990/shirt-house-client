@@ -1,14 +1,20 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../../../AuthProvider/Authprovider';
 
 const Navbar = () => {
+    const {user} = useContext(AuthContext);
     const items = [
         <div className='navbar-center hidden lg:flex font-semibold text-yellow-400'>
-            <li className='hover:text-white'><a>Home</a></li>
-            <li className='hover:text-white'><a>Shop</a></li>
-            <li className='hover:text-white'><a>Contact</a></li>
+            <Link to={"/"}><li className='hover:text-white'><a>Home</a></li></Link>
+            
+            {
+                user?
+                <Link to={"/myitems"}><li className='hover:text-white'><a>My Items</a></li></Link>:
+                <p></p>
+            }
             <li className='hover:text-white'><a>Blog</a></li>
-            <li className='hover:text-white'><a>Pages</a></li>
+            <li className='hover:text-white'><a href='https://aurnab-das990.netlify.app/#' target='blank'>About</a></li>
 
         </div>
     ]
@@ -22,8 +28,8 @@ const Navbar = () => {
                         </label>
                         <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                             <li><a>Home</a></li>
-                            <li><a>Shop</a></li>
-                            <li><a>Contact</a></li>
+                            <li><a>Products</a></li>
+                            <li><a>My Items</a></li>
                             <li><a>Blog</a></li>
                             <li><a>Pages</a></li>
                         </ul>
@@ -36,7 +42,11 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <Link to={"login"}><a className="btn btn-outline btn-warning">Login</a></Link>
+                    {
+                        user?<Link to={"/login"}><a className="btn btn-outline btn-warning">Logout</a></Link>:
+                        <Link to={"/login"}><a className="btn btn-outline btn-warning">Login</a></Link>
+                        
+                    }
                 </div>
             </div>
         </div>
