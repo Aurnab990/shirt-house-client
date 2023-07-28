@@ -14,7 +14,7 @@ const Navbar = () => {
                 <p></p>
             }
             <li className='hover:text-white'><a>Blog</a></li>
-            <li className='hover:text-white'><a href='https://aurnab-das990.netlify.app/#' target='blank'>About</a></li>
+            <li className='hover:text-white'><a target='blank'>About</a></li>
 
         </div>
     ]
