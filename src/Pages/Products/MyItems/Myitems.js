@@ -9,7 +9,7 @@ const Myitems = () => {
     // const url = `http://localhost:5000/orders?email=${user.email}`;
 
     useEffect(()=>{
-        fetch(`http://localhost:5000/orders?email=${user.email}`)
+        fetch(`https://car-house-server-topaz.vercel.app/orders?email=${user.email}`)
         .then(res => res.json())
         .then(data => setOrders(data));
 
@@ -18,7 +18,7 @@ const Myitems = () => {
     const handleDelete = id =>{
         const procced = window.confirm("Are you sure?");
         if(procced){
-            fetch(`http://localhost:5000/orders/${id}`,{
+            fetch(`https://car-house-server-topaz.vercel.app/orders/${id}`,{
                 method:"DELETE"
             })
             .then(res => res.json())

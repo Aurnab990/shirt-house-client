@@ -36,7 +36,7 @@ const Checkout = () => {
 
         }
 
-        fetch('http://localhost:5000/orders', {
+        fetch('https://car-house-server-topaz.vercel.app/orders', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',

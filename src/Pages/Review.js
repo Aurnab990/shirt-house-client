@@ -7,7 +7,7 @@ const Review = () => {
       <div className="grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-4 sm:grid-cols-2">
         <div className="duration-300 transform bg-white border-l-4 border-deep-purple-accent-400 hover:-translate-y-2">
           <div className="h-full p-5 border border-l-0 rounded-r shadow-sm">
-            <h6 className="mb-2 font-semibold leading-5">Esrat Jahan Eshu</h6>
+            <h6 className="mb-2 font-semibold leading-5">Alam Shikdar</h6>
             <p className="text-sm text-gray-900">
               This is the best site for purching t-shirts.
               The best site in Bangladesh. 
