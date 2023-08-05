@@ -24,13 +24,13 @@ const router = createBrowserRouter([
   {
     path:'/details/:id', 
     element:<ProductDetails></ProductDetails>, 
-    loader: ({params})=> fetch(`https://car-house-server-topaz.vercel.app/shirts/${params.id}`)
+    loader: ({params})=> fetch(`https://shirt-house-newserver.onrender.com/shirts/${params.id}`)
 
 },
 {
   path:'/details/:id/checkout',
   element:<Checkout></Checkout>,
-  loader: ({params})=> fetch(`https://car-house-server-topaz.vercel.app/shirts/${params.id}`)
+  loader: ({params})=> fetch(`https://shirt-house-newserver.onrender.com/shirts/${params.id}`)
 },
 {
   path:'/myitems',

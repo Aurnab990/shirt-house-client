@@ -36,7 +36,7 @@ const Checkout = () => {
 
         }
 
-        fetch('https://car-house-server-topaz.vercel.app/orders', {
+        fetch('https://shirt-house-newserver.onrender.com/orders', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',

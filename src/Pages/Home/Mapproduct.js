@@ -5,7 +5,7 @@ const Mapproduct = () => {
     const[product,setProduct] = useState([]);
     const[isShown, setShown] = useState([]);
     useEffect(()=>{
-        fetch('https://car-house-server-topaz.vercel.app/shirts')
+        fetch('https://shirt-house-newserver.onrender.com/shirts')
         .then(res => res.json())
         .then(data => setProduct(data))
     },[])
