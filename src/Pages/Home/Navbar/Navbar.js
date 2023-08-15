@@ -4,6 +4,8 @@ import { AuthContext } from '../../../AuthProvider/Authprovider';
 
 const Navbar = () => {
     const {user} = useContext(AuthContext);
+    
+
     const items = [
         <div className='navbar-center hidden lg:flex font-semibold text-yellow-400'>
             <Link to={"/"}><li className='hover:text-white'><a>Home</a></li></Link>

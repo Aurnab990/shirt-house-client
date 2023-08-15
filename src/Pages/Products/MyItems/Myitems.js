@@ -3,6 +3,7 @@ import { AuthContext } from '../../../AuthProvider/Authprovider';
 import Orderlist from './Orderlist';
 import Navbar from '../../Home/Navbar/Navbar';
 
+
 const Myitems = () => {
     const {user} = useContext(AuthContext);
     const [orders, setOrders] = useState([]);
@@ -37,7 +38,12 @@ const Myitems = () => {
         <div>
             <Navbar></Navbar>
             <div className="overflow-x-auto w-full">
-            <table className="table">
+            {orders.length === 0 ? ( // Show loader when orders are being fetched
+                <div className="flex justify-center items-center h-screen">
+                    <div className="loader"></div>
+                </div>
+            ):
+            (<table className="table">
                 {/* head */}
                 <thead>
                     <tr>
@@ -72,6 +78,7 @@ const Myitems = () => {
                 
 
             </table>
+)}
         </div>
             
         </div>

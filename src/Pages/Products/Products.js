@@ -5,8 +5,10 @@ import Navbar from '../Home/Navbar/Navbar';
 import { AuthContext } from '../../AuthProvider/Authprovider';
 
 const Products = (props) => {
+    console.log(props.product.length);
     const {user} = useContext(AuthContext);
-    const { _id,name, img, description, price, stocks } = props.product;
+    const { _id,name, img, description, price, stocks} = props.product;
+    
 
     return (
         <div className=''>

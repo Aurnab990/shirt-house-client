@@ -5,7 +5,7 @@ import { useLoaderData } from 'react-router';
 
 const Checkout = () => {
     const { user } = useContext(AuthContext);
-    const [newprice, setnewPrice] = useState([]);
+    const [totalPrice, setTotalPrice] = useState(0);
 
     const { name, _id, price } = useLoaderData();
 
@@ -19,15 +19,14 @@ const Checkout = () => {
         const quantityTotal = form.quantity.value;
 
         
-        const totalPrice = quantityTotal * price;
-        setnewPrice(totalPrice);
-        console.log(totalPrice);
+        const calculatedTotalPrice = quantityTotal * price;
+        setTotalPrice(calculatedTotalPrice);
 
 
         const order = {
             _id,
             itemName: name,
-            itemPrice: newprice,
+            itemPrice: calculatedTotalPrice,
             customerName: customername,
             email,
             phone,
@@ -67,7 +66,7 @@ const Checkout = () => {
                             <input name='address' type="text" placeholder="Address one" className="input input-bordered input-secondary w-full " />
                             <input name='phoneNumber' type="phone-number" placeholder="Mobile Number" className="input input-bordered input-secondary w-full" />
                             <input name='quantity' type="number" placeholder="Quantity" className="input input-bordered input-secondary w-full" />
-                            <input name='totalPrice' type="price" placeholder="Total-price" value={newprice} className="input input-bordered input-secondary w-full" />
+                            <input name='totalPrice' type="price" placeholder="Total-price" value={totalPrice} className="input input-bordered input-secondary w-full" />
                         </div>
 
                         <div className="">
